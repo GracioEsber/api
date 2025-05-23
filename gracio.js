@@ -4,7 +4,7 @@ const port = 3000;
 var cors = require('cors')
 app.use(cors())
 app.get('/', (req, res) => {
-  res.send('Hello, Express!');
+  res.send('Hello World');
 });
 var data = [{msg:'Hi',id:1},{msg:'Hru',id:2},{msg:'Good',id:3}];
 app.get('/data', (req, res) => {
